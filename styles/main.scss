@@ -1,0 +1,42 @@
+@import "./vars.scss";
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container-big {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  border: 1px solid darkviolet;
+}
+
+.container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: $black;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+.nav-list {
+}
+.nav-link {
+}
+.logo {
+}
+
+
